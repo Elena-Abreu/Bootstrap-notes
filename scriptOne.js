@@ -21,6 +21,6 @@ console.log(house);
 
 
 
-let BigNumber = 287678262583746819347389147831924781903276n;
+// let BigNumber = 287678262583746819347389147831924781903276n;
 
-console.log(BigNumber)
+// console.log(BigNumber)
