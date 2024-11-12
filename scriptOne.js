@@ -1,5 +1,5 @@
-let a = 100; 
-let b = 100;  
+//let a = 100; 
+//let b = 100;  
 
 // // a +=10; ==> a = a + 10
 
@@ -12,4 +12,12 @@ let b = 100;
 //a!=b checks if both values are different  
 //a===b compares total and datatype , if they are both the same like a=b then it will compare the datatype being the same (numbers..?) so if one has quotes its false
 //a!==b means it will check if values are different, then datatypes number vs string 
-console.log(a !== b);
+//console.log(a !== b); 
+
+
+let a = true 
+let b = false 
+
+
+//a&&B both have to be true 
+console.log(a && b)
