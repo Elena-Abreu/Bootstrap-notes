@@ -17,4 +17,8 @@ console.log(pet);
 
 let house = null; 
 
-console.log(house);
+console.log(house); 
+
+
+
+house = "Slytherin"
