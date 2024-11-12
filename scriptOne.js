@@ -6,6 +6,6 @@ let userName = "Harry";
 
 console.log(userName); 
 
-let pet = false;  
+let pet = true;  
 
 console.log(pet);
