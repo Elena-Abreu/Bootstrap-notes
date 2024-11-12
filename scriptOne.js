@@ -8,4 +8,8 @@ console.log(userName);
 
 let pet = true;  
 
-console.log(pet);
+console.log(pet); 
+
+let house; 
+
+console.log(house);
