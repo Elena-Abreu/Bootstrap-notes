@@ -1,15 +1,20 @@
 let age =26;
 
-console.log(age);
+console.log(age); 
+
 
 let userName = "Harry";
 
-console.log(userName); 
+console.log(userName);  
+
+
 
 let pet = true;  
 
-console.log(pet); 
+console.log(pet);  
 
-let house; 
+
+
+let house = null; 
 
 console.log(house);
