@@ -1,6 +1,3 @@
-let FirstName = "Elena"
-
-let LastName = "Abreu" 
-
-console.log(FirstName, LastName) 
-
+let a = 100; 
+let b = 20; 
+console.log(a+b);
