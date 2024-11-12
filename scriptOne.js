@@ -2,6 +2,6 @@ let age =26;
 
 console.log(age);
 
-let userName = "Harry" 
+let userName = "Harry";
 
 console.log(userName);
