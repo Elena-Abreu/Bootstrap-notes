@@ -4,4 +4,6 @@ console.log(age);
 
 let userName = "Harry";
 
-console.log(userName);
+console.log(userName); 
+
+let pet = false; 
