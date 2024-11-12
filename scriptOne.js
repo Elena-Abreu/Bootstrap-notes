@@ -15,11 +15,23 @@
 //console.log(a !== b); 
 
 
-let a = true 
+//let a = true 
 //let b = false 
 
 
 //a&&B both have to be true 
 //A || b means either one or both can be true to be true 
 // !a inverses value of variable .. so value a being true is now false
-console.log(!a)
+//console.log(!a) 
+
+
+//check if variable matches, execute code
+let house;  
+let firstName = "Harry"; 
+
+
+if (firstName == "Harry") 
+{ 
+    house = "Griffindor"; 
+    console.log(house);
+}
