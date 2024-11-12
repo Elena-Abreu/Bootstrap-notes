@@ -9,4 +9,5 @@ let b = 20;
 
 
 //a==b means it will check if both values are the same , so true or false 
-console.log(a == b);
+//a!=b checks if both values are different 
+console.log(a != b);
