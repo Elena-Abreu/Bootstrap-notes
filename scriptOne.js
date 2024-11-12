@@ -4,4 +4,8 @@ var age;
 
 age = 100;
 
-console.log(age);
+console.log(age); 
+
+let rollNO = 21; 
+
+console.log(rollNO)
