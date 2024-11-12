@@ -30,7 +30,7 @@ let house;
 let firstName = "Harry"; 
 
 
-if (firstName == "Harry") 
+if (firstName == "Ron") 
 { 
     house = "Griffindor"; 
     console.log(house);
