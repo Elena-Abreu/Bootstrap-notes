@@ -37,6 +37,6 @@ if (number > 90)
 } 
 
 else {
-    house = fail 
+    house = "fail"; 
     console.log(house)
 }
