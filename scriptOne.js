@@ -27,11 +27,16 @@
 
 //check if variable matches, execute code
 let house;  
-let number = 100; 
+let number = 10; 
 
 
 if (number > 90) 
 { 
     house = "Grade A"; 
     console.log(house);
+} 
+
+else {
+    house = fail 
+    console.log(house)
 }
