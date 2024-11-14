@@ -27,7 +27,7 @@
 
 //check if variable matches, execute code
 let house;  
-let number = 10; 
+let number = 82; 
 
 
 if (number > 90) 
