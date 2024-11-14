@@ -36,7 +36,19 @@ if (number > 90)
     console.log(house);
 } 
 
+else if ( number >80 ) 
+{ 
+    house = "Grade B"; 
+    console.log(house)
+} 
+
+else if ( number >70 ) 
+    { 
+        house = "Grade C"; 
+        console.log(house)
+    }
+
 else {
     house = "fail"; 
-    console.log(house)
+    console.log(house);
 }
