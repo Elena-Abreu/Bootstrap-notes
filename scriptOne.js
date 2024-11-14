@@ -27,11 +27,11 @@
 
 //check if variable matches, execute code
 let house;  
-let firstName = "Harry"; 
+let number = 100; 
 
 
-if (firstName == "Ron") 
+if (number > 90) 
 { 
-    house = "Griffindor"; 
+    house = "Grade A"; 
     console.log(house);
 }
