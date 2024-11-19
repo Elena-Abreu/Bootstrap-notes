@@ -70,9 +70,32 @@ console.log(tree.replace("flower", "mine"))
 let grade = ['A', 'B', 'C', 'D', 'E'] 
 console.log(grade[1]);
 
-//add 100 to end of array .. D100 and pop to get rid of 100
+//add 100 to end of array .. D100 and pop to get rid of 100 
+//show final grade and letter 
 let Grade = ['A', 'B', 'C', 'D'] 
-grade.push(100)
-console.log(Grade);
-Grade.pop() 
-console.log(Grade);
+let finalGrade= [100,200]
+console.log(Grade.concat(finalGrade))
+
+//unshifts(?)
+let Grrade = ['A', 'B', 'C', 'D'] 
+Grrade.unshift (100, 200, 300)
+console.log(Grrade)
+
+//removes first grade
+let GGrrade = ['A', 'B', 'C', 'D'] 
+GGrrade.shift ()
+console.log(GGrrade) 
+
+//Slice takes a portion
+let GGrradee = ['A', 'B', 'C', 'D'] 
+
+console.log(GGrradee.slice (0,2))
+
+
+//Splice deletes inbetween, or from beggining or ending (start index, # elements deleted, new added elemanet))
+let GGrradeee = ['A', 'B', 'C', 'D'] 
+GGrradeee.splice (2, 2, 100, 200)
+console.log(GGrradeee);
+
+
+
