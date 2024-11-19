@@ -51,4 +51,8 @@ else if ( number >70 )
 else {
     house = "fail"; 
     console.log(house);
-}
+} 
+//shorthand of above(one condition tho) -> condition ? "if condition true what output" : "if false what output"
+number > 90 ? "Grade A": "Fail" ; 
+
+//loop 
