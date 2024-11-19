@@ -35,7 +35,44 @@ console.log(lastName[0])
 //E 
 
 
-
+//hello harry potter
 let firstname="harry"
 let lastname= "potter"
 console.log(`Hello, ${firstname} ${lastname}`)
+
+
+//uppercase
+let animal="dog";
+console.log(animal.toUpperCase()) 
+
+//removes white spaces on edges
+let plant="    flower    ";
+console.log(plant.trim())
+
+// only output first 5 characters, start and stop index, does not include last one, ex (0,5) is 1-4
+let Animal="my pet dog";
+console.log(Animal.slice(0,5)) 
+
+//same line 
+let Plant="flower ";
+let house="mine"
+console.log(Plant.concat("house"))
+
+//replacing with searched variable
+let tree="flower do";
+let House="mine"
+console.log(tree.replace("flower", "mine")) 
+
+//which character is present at 7 ????
+
+
+//array
+let grade = ['A', 'B', 'C', 'D', 'E'] 
+console.log(grade[1]);
+
+//add 100 to end of array .. D100 and pop to get rid of 100
+let Grade = ['A', 'B', 'C', 'D'] 
+grade.push(100)
+console.log(Grade);
+Grade.pop() 
+console.log(Grade);
