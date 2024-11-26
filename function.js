@@ -6,16 +6,16 @@ function AddNumbers(username, lastname)
 {
     let a = 100 ;
     let b = 50 ;
-    console.log(a+b); 
+    //console.log(a+b);    only necessary if no getelementbyid
     document.getElementById('heading-two').innerText = (a + b);
 } 
-AddNumbers();  
+//AddNumbers();  
 
 //Function call (NECCESSARY TO SEE OUTPUT)
 //can be used to repeat above code multiple times, or solv
 
 
-
+//In function call
 //first value replaces username, second value replaces lastname 
 //function AddNumbers(username, lastname) 
 //AddNumbers('hary', 'potter')
