@@ -35,7 +35,13 @@ function AddNumbers(username, lastname)
 //looks for firstname and inserts value, then makes text under form that shows message Hello (input value)
 function getInput(){  
    let inputValue =  document.getElementById('FirstName').value; 
-   document.getElementById('inputName').innerText = "Hello," + inputValue;
+   document.getElementById('inputName').innerText = "Hello, " + inputValue;
 }
 
-
+function LastNameEvent(){  
+    let LastValue =  document.getElementById('LastName').value; 
+    document.getElementById('lastName-heading').innerText = "Hello, " + LastValue;
+} 
+document.getElementById('btn1').addEventListener('click', LastNameEvent) ;
+////document.getElementById('btn1').addEventListener('click', Function2) ;
+//document.getElementById('btn1').addEventListener('click', Function 3);
