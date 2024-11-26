@@ -7,8 +7,12 @@ function AddNumbers(username, lastname)
     let a = 100 ;
     let b = 50 ;
     //console.log(a+b);    only necessary if no getelementbyid
-    document.getElementById('heading-two').innerText = (a + b);
-} 
+    document.getElementById('heading-two').innerText = (a + b); 
+    document.getElementById('para1').innerHTML = "<h1>Para changes to H1 Heading<h1>"
+}  
+//inner text: changes only to text enclosed in h2>Sample text for h2<h2 
+//inner HTML: prints new h1 tag (changes paragraph to heading) in this example
+
 //AddNumbers();  
 
 //Function call (NECCESSARY TO SEE OUTPUT)
