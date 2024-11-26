@@ -37,11 +37,33 @@ function getInput(){
    let inputValue =  document.getElementById('FirstName').value; 
    document.getElementById('inputName').innerText = "Hello, " + inputValue;
 }
-
+//or
 function LastNameEvent(){  
     let LastValue =  document.getElementById('LastName').value; 
     document.getElementById('lastName-heading').innerText = "Hello, " + LastValue;
 } 
 document.getElementById('btn1').addEventListener('click', LastNameEvent) ;
 ////document.getElementById('btn1').addEventListener('click', Function2) ;
-//document.getElementById('btn1').addEventListener('click', Function 3);
+//document.getElementById('btn1').addEventListener('click', Function 3); 
+
+
+
+//window.location.href= 'test.html'
+ //correct username an dpassword, new page
+ //define whole function in add listener
+
+let fName = "Harry"; 
+let password= "Potter";  
+document.getElementById('form1').addEventListener('submit', function(event) {  
+   let inputName = document.getElementById('userName').value; 
+   let inputPass =  document.getElementById('password').value;  
+//does entered value match correct user and pasword? then submit. if not, nothing happens
+   if(fName ==inputName $$ password==inputPass)  { 
+    console.log("Success") 
+   }
+   else{ 
+    event.preventDefault();
+   }
+
+}
+ )
